@@ -4,16 +4,19 @@ It is required that drive will call accelerate. It is required accelerate will i
 Once the Camaro reaches max speed it should stop accelerating and print that it hit the cars max speed.
 The execution of drive should then also stop.
 
-- Code Scenario Requirements:
+##Code Scenario Requirements:
 
-- Base Car Class
-- + current speed (property) – default value 0
-- + brand (property) - default value ‘unknown’
-- + max speed (property) - default value 0
-- + accelerate (method)
-- + drive (method)
+### Base Car Class
+- current speed (property) – default value 0
+- brand (property) - default value ‘unknown’
+- max speed (property) - default value 0
+- accelerate (method)
+- drive (method)
 
-- Camaro Car Class
-- + Inherits Base Car
-- + brand (property) - default value ‘Chevy’
-- + max speed (property) – default value 200
+### Camaro Car Class
+- Inherits Base Car
+- brand (property) - default value ‘Chevy’
+- max speed (property) – default value 200
+
+## Usage:
+```bundle exec rspec```
